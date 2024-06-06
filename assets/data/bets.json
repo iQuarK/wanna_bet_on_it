@@ -1,0 +1,448 @@
+{
+  "bets": [
+    {
+      "id": 10,
+      "name": "Anthony Joshua to win upcoming fight within rounds 1-4",
+      "amount": 10.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "punters": [
+        {
+          "id": 0,
+          "name": "Punter 1",
+          "avatar": "https://placebeard.it/101/101"
+        },
+        {
+          "id": 1,
+          "name": "Punter 2",
+          "avatar": "https://placebeard.it/100/100"
+        }
+      ],
+      "cover": "https://placebeard.it/401/501",
+      "category": {
+        "id": 3,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    },
+    {
+      "id": 11,
+      "name": "John Snow to rule the seven kingdoms of Westeros from the Iron Throne at the end of the GOT series",
+      "amount": 15.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "punters": [
+        {
+          "id": 2,
+          "name": "Punter 3",
+          "avatar": "https://placebeard.it/100/101"
+        },
+        {
+          "id": 3,
+          "name": "Punter 4",
+          "avatar": "https://placebeard.it/101/100"
+        }
+      ],
+      "cover": "https://placebeard.it/402/502",
+      "category": {
+        "id": 3,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    },
+    {
+      "id": 12,
+      "name": "The third Royal baby to be a girl",
+      "amount": 5.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "punters": [
+        {
+          "id": 4,
+          "name": "Punter 5",
+          "avatar": "https://placebeard.it/102/102"
+        },
+        {
+          "id": 5,
+          "name": "Punter 6",
+          "avatar": "https://placebeard.it/100/102"
+        }
+      ],
+      "cover": "https://placebeard.it/403/503",
+      "category": {
+        "id": 3,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    },
+    {
+      "id": 13,
+      "name": "Spiderman marries Mary Jayne",
+      "amount": 20.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "punters": [
+        {
+          "id": 6,
+          "name": "Punter 7",
+          "avatar": "https://placebeard.it/103/103"
+        },
+        {
+          "id": 7,
+          "name": "Punter 8",
+          "avatar": "https://placebeard.it/102/100"
+        }
+      ],
+      "cover": "https://placebeard.it/404/504",
+      "category": {
+        "id": 3,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    },
+    {
+      "id": 14,
+      "name": "Anakin becomes Vader",
+      "amount": 22.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "punters": [
+        {
+          "id": 8,
+          "name": "Punter 9",
+          "avatar": "https://placebeard.it/103/100"
+        },
+        {
+          "id": 9,
+          "name": "Punter 10",
+          "avatar": "https://placebeard.it/100/103"
+        }
+      ],
+      "cover": "https://placebeard.it/400/500",
+      "category": {
+        "id": 3,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    },
+    {
+      "id": 15,
+      "name": "Anthony Joshua to win upcoming fight within rounds 1-4",
+      "amount": 10.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "punters": [
+        {
+          "id": 0,
+          "name": "Punter 1",
+          "avatar": "https://placebeard.it/101/101"
+        },
+        {
+          "id": 1,
+          "name": "Punter 2",
+          "avatar": "https://placebeard.it/100/100'"
+        }
+      ],
+      "cover": "https://placebeard.it/400/500",
+      "category": {
+        "id": 3,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    }
+  ],
+  "trending_bets": [
+    {
+      "id": 0,
+      "name": "Anthony Joshua to win upcoming fight within rounds 1-4 ",
+      "punters": [],
+      "amount": 0.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "cover": "https://images.unsplash.com/photo-1579202673506-ca3ce28943ef",
+      "category": {
+        "id": 3,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    },
+    {
+      "id": 1,
+      "name": "John Snow to rule the seven kingdoms of Westeros from the Iron Throne at the end of the GOT series",
+      "punters": [],
+      "amount": 0.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "cover": "https://placebeard.it/500/500",
+      "category": {
+        "id": 3,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    },
+    {
+      "id": 2,
+      "name": "The third Royal baby to be a girl'",
+      "punters": [],
+      "amount": 0.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "cover": "https://placebeard.it/400/500",
+      "category": {
+        "id": 2,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    }
+  ],
+  "popular_bets": [
+    {
+      "id": 13,
+      "name": "Spiderman marries Mary Jayne",
+      "amount": 20.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "punters": [
+        {
+          "id": 6,
+          "name": "Punter 7",
+          "avatar": "https://placebeard.it/103/103"
+        },
+        {
+          "id": 7,
+          "name": "Punter 8",
+          "avatar": "https://placebeard.it/102/100"
+        }
+      ],
+      "cover": "https://placebeard.it/404/504",
+      "category": {
+        "id": 3,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    },
+    {
+      "id": 14,
+      "name": "Anakin becomes Vader",
+      "amount": 22.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "punters": [
+        {
+          "id": 8,
+          "name": "Punter 9",
+          "avatar": "https://placebeard.it/103/100"
+        },
+        {
+          "id": 9,
+          "name": "Punter 10",
+          "avatar": "https://placebeard.it/100/103"
+        }
+      ],
+      "cover": "https://placebeard.it/400/500",
+      "category": {
+        "id": 3,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    },
+    {
+      "id": 15,
+      "name": "Anthony Joshua to win upcoming fight within rounds 1-4",
+      "amount": 10.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "punters": [
+        {
+          "id": 0,
+          "name": "Punter 1",
+          "avatar": "https://placebeard.it/101/101"
+        },
+        {
+          "id": 1,
+          "name": "Punter 2",
+          "avatar": "https://placebeard.it/100/100'"
+        }
+      ],
+      "cover": "https://placebeard.it/400/500",
+      "category": {
+        "id": 3,
+        "name": "Politics",
+        "icon": "politics",
+        "open_bets": 75
+      }
+    }
+  ],
+  "friends_bets": [
+    {
+      "id": 23,
+      "name": "3 billboards to win best movie oscar",
+      "amount": 10.0,
+      "start_date": "2023-12-01T02:13:11Z",
+      "end_date": "2023-12-10T02:13:11Z",
+      "punters": [
+        {
+          "id": 6,
+          "name": "Punter 7",
+          "avatar": "https://placebeard.it/103/103"
+        },
+        {
+          "id": 7,
+          "name": "Punter 8",
+          "avatar": "https://placebeard.it/102/100"
+        }
+      ],
+      "cover": "https://placebeard.it/404/504",
+      "category": {
+        "id": 3,
+        "name": "Miscellaneous",
+        "icon": "miscellaneous",
+        "open_bets": 34
+      }
+    },
+    {
+      "id": 24,
+      "name": "Rain tomorrow in SE8",
+      "amount": 45.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-17T02:13:11Z",
+      "punters": [
+        {
+          "id": 8,
+          "name": "Punter 9",
+          "avatar": "https://placebeard.it/103/100"
+        },
+        {
+          "id": 9,
+          "name": "Punter 10",
+          "avatar": "https://placebeard.it/100/103"
+        }
+      ],
+      "cover": "https://placebeard.it/400/500",
+      "category": {
+        "id": 3,
+        "name": "Miscellaneous",
+        "icon": "miscellaneous",
+        "open_bets": 5
+      }
+    },
+    {
+      "id": 15,
+      "name": "McGregor to lose the bus",
+      "amount": 140.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "punters": [
+        {
+          "id": 0,
+          "name": "Punter 1",
+          "avatar": "https://placebeard.it/101/101"
+        },
+        {
+          "id": 1,
+          "name": "Punter 2",
+          "avatar": "https://placebeard.it/100/100'"
+        }
+      ],
+      "cover": "https://placebeard.it/400/500",
+      "category": {
+        "id": 3,
+        "name": "Sports",
+        "icon": "sports",
+        "open_bets": 75
+      }
+    }
+  ],
+  "my_bets": [
+    {
+      "id": 23,
+      "name": "3 billboards to win best movie oscar",
+      "amount": 10.0,
+      "start_date": "2023-12-01T02:13:11Z",
+      "end_date": "2023-12-10T02:13:11Z",
+      "punters": [
+        {
+          "id": 6,
+          "name": "Punter 7",
+          "avatar": "https://placebeard.it/103/103"
+        },
+        {
+          "id": 7,
+          "name": "Punter 8",
+          "avatar": "https://placebeard.it/102/100"
+        }
+      ],
+      "cover": "https://placebeard.it/404/504",
+      "category": {
+        "id": 3,
+        "name": "Miscellaneous",
+        "icon": "miscellaneous",
+        "open_bets": 34
+      }
+    },
+    {
+      "id": 24,
+      "name": "Rain tomorrow in SE8",
+      "amount": 45.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-17T02:13:11Z",
+      "punters": [
+        {
+          "id": 8,
+          "name": "Punter 9",
+          "avatar": "https://placebeard.it/103/100"
+        },
+        {
+          "id": 9,
+          "name": "Punter 10",
+          "avatar": "https://placebeard.it/100/103"
+        }
+      ],
+      "cover": "https://placebeard.it/400/500",
+      "category": {
+        "id": 3,
+        "name": "Miscellaneous",
+        "icon": "miscellaneous",
+        "open_bets": 5
+      }
+    },
+    {
+      "id": 15,
+      "name": "McGregor to lose the bus",
+      "amount": 140.0,
+      "start_date": "2023-12-02T02:13:11Z",
+      "end_date": "2023-12-25T02:13:11Z",
+      "punters": [
+        {
+          "id": 0,
+          "name": "Punter 1",
+          "avatar": "https://placebeard.it/101/101"
+        },
+        {
+          "id": 1,
+          "name": "Punter 2",
+          "avatar": "https://placebeard.it/100/100'"
+        }
+      ],
+      "cover": "https://placebeard.it/400/500",
+      "category": {
+        "id": 3,
+        "name": "Sports",
+        "icon": "sports",
+        "open_bets": 75
+      }
+    }
+  ],
+  "empty_bets": []
+}

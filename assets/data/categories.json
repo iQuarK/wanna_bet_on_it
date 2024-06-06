@@ -1,0 +1,52 @@
+{
+  "categories": [
+    {
+      "id": 1,
+      "name": "Current affairs",
+      "icon": "current_affairs",
+      "open_bets": 260
+    },
+    {
+      "id": 2,
+      "name": "Television",
+      "icon": "television",
+      "open_bets": 255
+    },
+    {
+      "id": 3,
+      "name": "Politics",
+      "icon": "politics",
+      "open_bets": 75
+    },
+    {
+      "id": 4,
+      "name": "Weather",
+      "icon": "weather",
+      "open_bets": 130
+    },
+    {
+      "id": 5,
+      "name": "Sport",
+      "icon": "sport",
+      "open_bets": 260
+    },
+    {
+      "id": 6,
+      "name": "Movies",
+      "icon": "movies",
+      "open_bets": 255
+    },
+    {
+      "id": 7,
+      "name": "Business",
+      "icon": "business",
+      "open_bets": 75
+    },
+    {
+      "id": 8,
+      "name": "Miscellaneous",
+      "icon": "miscellaneous",
+      "open_bets": 0
+    }
+  ]
+}

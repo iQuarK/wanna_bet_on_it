@@ -4,6 +4,7 @@ Color initialBackgroundColor = Colors.greenAccent.shade400;
 Color bodyBackgroundColor = const Color.fromRGBO(242, 244, 248, 1);
 Color primaryMainColor = Colors.deepPurple.shade900;
 Color primaryCTAColor = Colors.greenAccent.shade400;
+Color primaryTabColor = const Color.fromRGBO(44, 221, 139, 1);
 Color menuBackgroundColor = Colors.white;
 Color menuSelectedColor = primaryCTAColor;
 Color menuUnselectedColor = const Color.fromRGBO(204, 204, 204, 1);

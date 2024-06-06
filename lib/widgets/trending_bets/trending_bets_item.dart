@@ -35,12 +35,11 @@ class _TrendingBetsItemState extends State<TrendingBetsItem> {
             decoration: BoxDecoration(
               color: Colors.amber,
               image: DecorationImage(
-                  image: NetworkImage(widget.bet.cover),
-                  fit: BoxFit.cover),
+                  image: NetworkImage(widget.bet.cover), fit: BoxFit.cover),
             ),
             child: Container(
                 padding:
-                const EdgeInsets.only(right: 100, left: 15, bottom: 30),
+                    const EdgeInsets.only(right: 100, left: 15, bottom: 30),
                 decoration: const BoxDecoration(
                     color: Colors.pink,
                     gradient: LinearGradient(
@@ -52,8 +51,8 @@ class _TrendingBetsItemState extends State<TrendingBetsItem> {
                     crossAxisAlignment: CrossAxisAlignment.stretch,
                     children: [
                       const Text('Trending Bets',
-                          style: TextStyle(
-                              color: Colors.white, fontSize: 15.0)),
+                          style:
+                              TextStyle(color: Colors.white, fontSize: 15.0)),
                       Text(widget.bet.name,
                           style: const TextStyle(
                               color: Colors.white, fontSize: 30.0)),

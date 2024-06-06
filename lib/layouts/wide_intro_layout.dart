@@ -57,7 +57,7 @@ class WideIntroLayout extends StatelessWidget {
                     child: Text(
                       subtitle,
                       textAlign: TextAlign.center,
-                      style: subheaderStyle,
+                      style: subHeaderStyle,
                     ),
                   ),
                   child

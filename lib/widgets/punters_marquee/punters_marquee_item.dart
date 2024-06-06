@@ -3,7 +3,7 @@ import 'package:wanna_bet_on_it/classes/bet.dart';
 
 import 'package:wanna_bet_on_it/styles/colors.dart';
 
-class PuntersMarqueeItem extends StatelessWidget {
+class PuntersMarqueeItem extends StatefulWidget {
   const PuntersMarqueeItem(
       {super.key, required this.bet, required this.onPressed});
 
@@ -11,9 +11,27 @@ class PuntersMarqueeItem extends StatelessWidget {
   final Bet bet;
 
   @override
+  State<PuntersMarqueeItem> createState() {
+    return _PuntersMarqueeItemState();
+  }
+}
+
+class _PuntersMarqueeItemState extends State<PuntersMarqueeItem> {
+
+  @override
+  void initState() {
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      for (var punter in widget.bet.punters) {
+        precacheImage(NetworkImage(punter.avatar), context);
+      }
+    });
+    super.initState();
+  }
+
+  @override
   Widget build(BuildContext context) {
     return GestureDetector(
-        onTap: () => onPressed(),
+        onTap: () => widget.onPressed(),
         child: Padding(
             padding: const EdgeInsets.only(right: 10.0),
             child: SizedBox(
@@ -33,7 +51,7 @@ class PuntersMarqueeItem extends StatelessWidget {
                         ),
                         child: ClipRRect(
                             borderRadius: BorderRadius.circular(25.0),
-                            child: Image.network(bet.punters[1].avatar,
+                            child: Image.network(widget.bet.punters[1].avatar,
                                 width: 55.0,
                                 height: 55.0,
                                 fit: BoxFit.cover)))),
@@ -51,7 +69,7 @@ class PuntersMarqueeItem extends StatelessWidget {
                         ),
                         child: ClipRRect(
                             borderRadius: BorderRadius.circular(25.0),
-                            child: Image.network(bet.punters[0].avatar,
+                            child: Image.network(widget.bet.punters[0].avatar,
                                 width: 55.0,
                                 height: 55.0,
                                 fit: BoxFit.cover)))),
@@ -63,7 +81,7 @@ class PuntersMarqueeItem extends StatelessWidget {
                         left: 10.0, top: 2.0, right: 10.0, bottom: 2.0),
                     color: primaryCTAColor,
                     child: Text(
-                      '£${bet.amount}',
+                      '£${widget.bet.amount}',
                       textAlign: TextAlign.center,
                       style:
                       const TextStyle(color: Colors.white, fontSize: 12.0),

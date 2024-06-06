@@ -1,7 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:wanna_bet_on_it/account_created_successfully.dart';
 import 'package:wanna_bet_on_it/add_your_address.dart';
-import 'package:wanna_bet_on_it/homepage.dart';
+import 'package:wanna_bet_on_it/widgets/my_bets/activity_bet.dart';
+import 'package:wanna_bet_on_it/widgets/user_screens/homepage_screen.dart';
 import 'package:wanna_bet_on_it/id_verification.dart';
 import 'package:wanna_bet_on_it/initial.dart';
 import 'package:wanna_bet_on_it/set_a_password.dart';
@@ -9,6 +10,7 @@ import 'package:wanna_bet_on_it/styles/colors.dart';
 import 'package:wanna_bet_on_it/styles/themes.dart';
 import 'package:wanna_bet_on_it/whats_your_email_address.dart';
 import 'package:wanna_bet_on_it/whats_your_password.dart';
+import 'package:wanna_bet_on_it/widgets/user_screens/main_screen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -23,6 +25,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
         title: 'WannaBetOnIt',
         theme: ThemeData(
+            fontFamily: 'Roboto',
             useMaterial3: true,
             appBarTheme: appBarTheme,
             progressIndicatorTheme: progressIndicatorTheme,
@@ -43,7 +46,8 @@ class MyApp extends StatelessWidget {
           '/id_verification': (context) => const IDVerification(),
           '/account_created_successfully': (context) =>
           const AccountCreatedSuccessfully(),
-          '/homepage': (context) => const Homepage(),
+          '/homepage': (context) => const MainScreen(),
+          '/activity_bet': (context) => const ActivityBet(),
         });
   }
 }

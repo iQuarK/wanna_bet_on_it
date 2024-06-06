@@ -4,16 +4,15 @@ import 'package:wanna_bet_on_it/styles/colors.dart';
 class HomeLayout extends StatefulWidget {
   const HomeLayout({
     super.key,
-    required this.child,
+    required this.children,
     this.title = '',
   });
 
-  final Widget child;
+  final List<Widget> children;
   final String title;
 
   @override
-  State<HomeLayout> createState() =>
-      _HomeLayoutState();
+  State<HomeLayout> createState() => _HomeLayoutState();
 }
 
 class _HomeLayoutState extends State<HomeLayout> {
@@ -28,7 +27,7 @@ class _HomeLayoutState extends State<HomeLayout> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: widget.child,
+      body: widget.children[_selectedIndex],
       floatingActionButton: FloatingActionButton.extended(
         onPressed: () {
           print('creating bet');
@@ -42,28 +41,48 @@ class _HomeLayoutState extends State<HomeLayout> {
         showUnselectedLabels: true,
         items: const <BottomNavigationBarItem>[
           BottomNavigationBarItem(
-            icon: Image(image: AssetImage('assets/images/icons/feed_inactive.png')),
-            activeIcon: Image(image: AssetImage('assets/images/icons/feed_active.png')),
+            icon: Image(
+                image: AssetImage(
+                    'assets/images/icons/bottom_menu/feed_inactive.png')),
+            activeIcon: Image(
+                image: AssetImage(
+                    'assets/images/icons/bottom_menu/feed_active.png')),
             label: 'Feed',
           ),
           BottomNavigationBarItem(
-            icon:Image(image: AssetImage('assets/images/icons/my_bets_inactive.png')),
-            activeIcon:Image(image: AssetImage('assets/images/icons/my_bets_active.png')),
+            icon: Image(
+                image: AssetImage(
+                    'assets/images/icons/bottom_menu/my_bets_inactive.png')),
+            activeIcon: Image(
+                image: AssetImage(
+                    'assets/images/icons/bottom_menu/my_bets_active.png')),
             label: 'My Bets',
           ),
           BottomNavigationBarItem(
-            icon:Image(image: AssetImage('assets/images/icons/search_inactive.png')),
-            activeIcon:Image(image: AssetImage('assets/images/icons/search_active.png')),
+            icon: Image(
+                image: AssetImage(
+                    'assets/images/icons/bottom_menu/search_inactive.png')),
+            activeIcon: Image(
+                image: AssetImage(
+                    'assets/images/icons/bottom_menu/search_active.png')),
             label: 'Search',
           ),
           BottomNavigationBarItem(
-            icon:Image(image: AssetImage('assets/images/icons/friends_inactive.png')),
-            activeIcon:Image(image: AssetImage('assets/images/icons/friends_active.png')),
+            icon: Image(
+                image: AssetImage(
+                    'assets/images/icons/bottom_menu/friends_inactive.png')),
+            activeIcon: Image(
+                image: AssetImage(
+                    'assets/images/icons/bottom_menu/friends_active.png')),
             label: 'Friends',
           ),
           BottomNavigationBarItem(
-            icon:Image(image: AssetImage('assets/images/icons/settings_inactive.png')),
-            activeIcon:Image(image: AssetImage('assets/images/icons/settings_active.png')),
+            icon: Image(
+                image: AssetImage(
+                    'assets/images/icons/bottom_menu/settings_inactive.png')),
+            activeIcon: Image(
+                image: AssetImage(
+                    'assets/images/icons/bottom_menu/settings_active.png')),
             label: 'Settings',
           ),
         ],

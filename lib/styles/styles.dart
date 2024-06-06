@@ -3,7 +3,7 @@ import 'package:wanna_bet_on_it/styles/colors.dart';
 
 TextStyle headerStyle = TextStyle(
     color: primaryMainColor, fontSize: 24.0, fontWeight: FontWeight.w700);
-TextStyle subheaderStyle = TextStyle(
+TextStyle subHeaderStyle = TextStyle(
     color: subheaderFontColor, fontSize: 14.0, fontWeight: FontWeight.w400);
 TextStyle inputLabelStyle = TextStyle(
     color: inputLabelColor, fontSize: 13.0, fontWeight: FontWeight.w600);
@@ -45,4 +45,19 @@ ButtonStyle secondaryButtonStyle = ButtonStyle(
       (states) => const TextStyle(fontSize: 16.0)),
 );
 
-TextStyle initialButtonTextStyle = const TextStyle(color: Colors.white, fontWeight: FontWeight.bold);
+TextStyle initialButtonTextStyle =
+    const TextStyle(color: Colors.white, fontWeight: FontWeight.bold);
+
+TextStyle categoryNameTextStyle =
+    const TextStyle(fontSize: 17, fontWeight: FontWeight.w400);
+TextStyle categoryOpenBetsTextStyle =
+    const TextStyle(fontSize: 15, fontWeight: FontWeight.w400);
+
+TextStyle betItemNameTextStyle = const TextStyle(
+    fontSize: 28, fontFamily: 'Lato', fontWeight: FontWeight.w700, overflow: TextOverflow.ellipsis);
+TextStyle betItemEndingTextStyle = const TextStyle(
+    fontSize: 15,
+    fontWeight: FontWeight.w400,
+    color: Color.fromRGBO(181, 181, 181, 1));
+
+TextStyle linkTextStyle = TextStyle(fontSize: 15, color: primaryCTAColor);
